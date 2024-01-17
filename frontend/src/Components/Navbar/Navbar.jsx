@@ -16,9 +16,9 @@ const Navbar = () => {
                 <p>AL'S GARAGE</p>
             </div>
             <ul className="nav-menu">
-                <li onClick={() => {setMenu('shopAll')}}><Link to='/'>Shop All</Link>{menu === "shopAll" ? <hr/> : <></>}</li>
-                <li onClick={() => {setMenu('flower')}}><Link to='/flower'>Flower</Link>{menu === "flower" ? <hr/> : <></>}</li>
-                <li onClick={() => {setMenu('hash')}}><Link to='/hash'>Hash</Link>{menu === "hash" ? <hr/> : <></>}</li>
+                <li onClick={() => {setMenu('shopAll')}}><Link style={{ textDecoration: 'none' }} to='/'>Shop All</Link>{menu === "shopAll" ? <hr/> : <></>}</li>
+                <li onClick={() => {setMenu('flower')}}><Link style={{ textDecoration: 'none' }} to='/flower'>Flower</Link>{menu === "flower" ? <hr/> : <></>}</li>
+                <li onClick={() => {setMenu('hash')}}><Link style={{ textDecoration: 'none' }} to='/hash'>Hash</Link>{menu === "hash" ? <hr/> : <></>}</li>
             </ul>
             <div className="nav-login-cart">
                 <Link to='/login'><button>Login</button></Link>
