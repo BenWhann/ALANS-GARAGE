@@ -13,11 +13,11 @@ const Hero = () => {
                     <p>Coming Soon</p>
                     <img src={hand_holding_weed} alt="" />
                 </div>
-                <p>Collections</p>
+                <p>Weed</p>
                 <p>For Everyone</p>
             </div>
             <div className="hero-latest-btn">
-                <div>Latest Collection</div>
+                <div>New Products</div>
                 {/* <img src={} alt="" /> */}
             </div>
         </div>

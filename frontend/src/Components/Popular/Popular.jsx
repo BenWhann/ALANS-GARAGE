@@ -1,12 +1,12 @@
 import React from 'react'
 import './Popular.css'
 import product_data from '../Assets/data.js'
-import Item from '../Item/Item';
+import Item from '../Items/Item.jsx';
 
 const Popular = () => {
   return (
     <div className='popular'>
-        <h1>POPULAR IN FLOWER</h1>
+        <h1>POPULAR ITEMS</h1>
         <hr />
         <div className="popular-item">
             {product_data.map((item, i) => {
