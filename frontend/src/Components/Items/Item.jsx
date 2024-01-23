@@ -4,36 +4,36 @@ import './Item.css'
 const Item = (props) => {
   return (
     <div className='item'>
-        <img src={props.image} alt="" />
+        <img className='itemImage' src={props.image} alt="" />
         <p>{props.name}</p>
         <div className="item-prices">
           <div className='item-prices-flower'>
             <div className="item-price-eighth">
-                {props.eighth_price}
+                ${props.eighth_price}
             </div>
             <div className="item-price-quad">
-                {props.quad_price}
+                ${props.quad_price}
             </div>
             <div className="item-price-half">
-                {props.half_price}
+                ${props.half_price}
             </div>
             <div className="item-price-ounce">
-                {props.ounce_price}
+                ${props.ounce_price}
             </div>
           </div>
 
           <div className='item-prices-hash'>
             <div className="item-price-gram">
-                {props.gram_price}
+                ${props.gram_price}
             </div>
             <div className="item-price-two-gram">
-                {props.two_gram_price}
+                ${props.two_gram_price}
             </div>
             <div className="item-price-four-gram">
-                {props.four_gram_price}
+                ${props.four_gram_price}
             </div>
             <div className="item-price-eight-gram">
-                {props.eight_gram_price}
+                ${props.eight_gram_price}
             </div>
           </div>
         </div>

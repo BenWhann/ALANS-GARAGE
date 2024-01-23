@@ -22,3 +22,9 @@
     transition: 0.6s;
 }
 
+.itemImage {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid black;
+}
