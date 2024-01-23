@@ -13,8 +13,8 @@ const Hero = () => {
                     <p>Coming Soon</p>
                     <img src={hand_holding_weed} alt="" />
                 </div>
-                <p>Weed</p>
-                <p>For Everyone</p>
+                <p>Fire Bud</p>
+                <p>For All</p>
             </div>
             <div className="hero-latest-btn">
                 <div>New Products</div>
