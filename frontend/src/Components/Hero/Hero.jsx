@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import hand_holding_weed from '../Assets/hand_holding_weed.png'
 import cheech_and_chong from '../Assets/cheech_and_chong.png';
+import gorilla_cookies_live from '../Assets/gorilla_cookies_live.jpg'
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="hero-right">
-            <img src={cheech_and_chong} alt="" />
+            <img className='heroImg' src={gorilla_cookies_live} alt="" />
         </div>
     </div>
   )
