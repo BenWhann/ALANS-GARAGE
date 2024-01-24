@@ -84,6 +84,7 @@
 .gpa_joint {
     width: 150px;
     height: auto;
+    border-radius: 100px;
 }
 
 .cart_icon {
