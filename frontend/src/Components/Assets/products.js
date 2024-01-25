@@ -9,7 +9,7 @@ let products = [
     {
         id: 1,
         name: 'Afghan Kush Flower',
-        category: 'Flower',
+        category: 'flower',
         image: afghanKushFlower,
         eighth_price: '$25',
         quad_price: '$45',
@@ -19,7 +19,7 @@ let products = [
     {
         id: 2,
         name: 'Amnesia Lemon Hash',
-        category: 'Concentrates',
+        category: 'concentrates',
         image: amnesiaLemonHash,
         gram_price: '$25',
         two_gram_price: '$45',
@@ -29,7 +29,7 @@ let products = [
     {
         id: 3,
         name: 'Cherry Punch Flower',
-        category: 'Flower',
+        category: 'flower',
         image: cherryPunchFlower,
         eighth_price: '$25',
         quad_price: '$45',
@@ -39,7 +39,7 @@ let products = [
     {
         id: 4,
         name: 'Platinum Cookie Flower',
-        category: 'Flower',
+        category: 'flower',
         image: platinumCookieFlower,
         eighth_price: '$25',
         quad_price: '$45',
@@ -49,7 +49,7 @@ let products = [
     {
         id: 5,
         name: 'Tropsanto Flower',
-        category: 'Flower',
+        category: 'flower',
         image: tropsantoFlower,
         eighth_price: '$25',
         quad_price: '$45',
