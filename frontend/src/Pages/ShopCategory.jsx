@@ -8,7 +8,7 @@ const ShopCategory = (props) => {
     const {products} = useContext(ShopContext);
     return (
         <div className='shop-category'>
-            <img className='shopcategory-banner' src={props.banner} alt="" />
+            {/* <img className='shopcategory-banner' src={props.banner} alt="" /> */}
             <div className="shop-category-indexSort">
                 <p>
                     <span>Showing 1-{props.category === 'flower' ? '4' : '1'}</span> out of 5 total products.

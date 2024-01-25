@@ -6,10 +6,10 @@ const Offers = () => {
   return (
     <div className='offers'>
         <div className="offers-left">
-            <h1>Exclusive</h1>
-            <h1>Offers For You</h1>
-            <p>ONLY ON BEST SELLING PRODUCTS</p>
-            <button>Check Now</button>
+            <h1>GOOD ASS</h1>
+            <h1>DEALS FOR YOU</h1>
+            <p>ON MINNESOTA'S BEST ORGANICALLY GROWN CANNABIS</p>
+            <button>We are not taxing out here</button>
         </div>
 
         <div className="offers-right">
