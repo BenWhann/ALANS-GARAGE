@@ -33,11 +33,28 @@ const ProductDisplay = (props) => {
                 <div className="productdisplay-right-price-half">{product.four_gram_price}</div>
                 <div className="productdisplay-right-price-ounce">{product.eight_gram_price}</div>
                 </>}
-    
-                
-
-                
-                
+            </div>
+            <div className="productdisplay-right-quantity">
+                <h1>Select Quantity</h1>
+                <div className="productdisplay-right-quantity">
+                {product.category === 'flower'
+                ? 
+                <>
+                <div>Eighth</div>
+                <div>Quad</div>
+                <div>Half Ounce</div>
+                <div>Ounce</div> 
+                </>
+                : 
+                <>
+                <div>Gram</div>
+                <div>Two Gram</div>
+                <div>Four Gram</div>
+                <div>Eight Gram</div>
+                </>}
+                </div>
+                <button>ADD TO CART</button>
+                <p className='productdisplay-right-category'>Category : <span>{product.category}</span></p>
             </div>
         </div>
     </div>
