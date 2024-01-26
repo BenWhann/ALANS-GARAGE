@@ -1,8 +1,15 @@
 import React from 'react'
+import './Breadcrumb.css'
+import forward_slash from '../Assets/forward_slash.png'
 
-const Breadcrumb = () => {
+const Breadcrumb = (props) => {
+  const {product} = props;
+  console.log(props)
+  console.log(product)
   return (
-    <div className='breadcrumb'>Breadcrumb</div>
+    <div className='breadcrumb'>
+      HOME <img className='slash' src={forward_slash} alt="" /> SHOP <img className='slash' src={forward_slash} alt="" /> {product.category} <img className='slash' src={forward_slash} alt="" /> {product.name}
+    </div>
   )
 }
 
