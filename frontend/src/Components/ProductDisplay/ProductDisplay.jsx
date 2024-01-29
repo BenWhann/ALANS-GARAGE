@@ -36,7 +36,7 @@ const ProductDisplay = (props) => {
             </div>
             <div className="productdisplay-right-quantity">
                 <h1>Select Quantity</h1>
-                <div className="productdisplay-right-quantity">
+                <div className="productdisplay-right-quantities">
                 {product.category === 'flower'
                 ? 
                 <>
