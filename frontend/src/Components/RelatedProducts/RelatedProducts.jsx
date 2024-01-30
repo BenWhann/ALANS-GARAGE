@@ -5,7 +5,6 @@ import { ShopContext } from '../../Context/ShopContext';
 
 const RelatedProducts = (props) => {
     const {products} = useContext(ShopContext);
-    console.log(props)
     return (
     <div className='relatedproducts'>
         <h1>Related Products</h1>
